@@ -12,19 +12,19 @@
 
 
 
-//#include<bits/stdc++.h>
-//using namespace std;
-//
-//int main()
-//{
-//	int n, k, h, cnt = 0;
-//	cin>>n>>k;
-//	while(n--)
-//	{
-//		cin>>h;
-//		cnt += (h>=k);
-//	}
-//
-//	cout<<cnt;
-//	return 0;
-//}
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n, k, h, cnt = 0;
+	cin>>n>>k;
+	while(n--)
+	{
+		cin>>h;
+		cnt += (h>=k);
+	}
+
+	cout<<cnt;
+	return 0;
+}
