@@ -1,5 +1,5 @@
 /*
- *  CF_732_A.cpp
+ *  CF_770_A.cpp
  *
  *  Created on: Oct 11, 2019
  *      Author: Mohamed sakr
@@ -17,15 +17,16 @@ using namespace std;
 
 int main()
 {
-	int k,r;
-	cin>>k>>r;
-	for(int i = 1; ; i++)
+	int n, k;
+	cin>>n>>k;
+	char ch;
+	string res = "";
+	for(int i = 0; i < n; i++)
 	{
-		int val = i * k;
-		if(val % 10 == r || val % 10 == 0 ){
-			cout<<i;
-			break;
-		}
+		ch = (i%k) + 97;
+		res += ch;
 	}
+	cout<<res;
+	
 	return 0;
 }
