@@ -7,19 +7,19 @@
 
 
 
-//#include<bits/stdc++.h>
-//using namespace std;
-//int main()
-//{
-//	int n,h, val, minW = 0;
-//		cin>>n>>h;
-//		while(n--)
-//		{
-//			cin>>val;
-//			minW++;
-//			minW += (val > h);
-//		}
-//		cout<<minW;
-//
-//	return 0;
-//}
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int n,h, val, minW = 0;
+		cin>>n>>h;
+		while(n--)
+		{
+			cin>>val;
+			minW++;
+			minW += (val > h);
+		}
+		cout<<minW;
+
+	return 0;
+}
